@@ -68,6 +68,4 @@ Each disease object returned by the API has the following structure:
 
 Contributions to add more diseases, improve data accuracy, or enhance the functionality of the API are welcome. If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
 
-### License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
