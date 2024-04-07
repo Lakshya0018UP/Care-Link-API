@@ -1,30 +1,272 @@
-[{"id":1,"disease_name":"Leprosy"},
-{"id":2,"disease_name":"Mumps"},
-{"id":3,"disease_name":"Hepatitis"},
-{"id":4,"disease_name":"Tuberculosis"},
-{"id":5,"disease_name":"Typhoid"},
-{"id":6,"disease_name":"Zika Virus"},
-{"id":7,"disease_name":"Rabies"},
-{"id":8,"disease_name":"Chagas Disease"},
-{"id":9,"disease_name":"Zika Virus"},
-{"id":10,"disease_name":"Swine Flu"},
-{"id":11,"disease_name":"Schistosomiasis"},
-{"id":12,"disease_name":"Typhoid"},
-{"id":13,"disease_name":"Leptospirosis"},
-{"id":14,"disease_name":"Leprosy"},
-{"id":15,"disease_name":"Chickenpox"},
-{"id":16,"disease_name":"Chikungunya"},
-{"id":17,"disease_name":"HIV/AIDS"},
-{"id":18,"disease_name":"Rabies"},
-{"id":19,"disease_name":"Dengue"},
-{"id":20,"disease_name":"Hepatitis"},
-{"id":21,"disease_name":"Malaria"},
-{"id":22,"disease_name":"Chickenpox"},
-{"id":23,"disease_name":"Yellow Fever"},
-{"id":24,"disease_name":"Typhoid"},
-{"id":25,"disease_name":"Mumps"},
-{"id":26,"disease_name":"Chikungunya"},
-{"id":27,"disease_name":"Malaria"},
-{"id":28,"disease_name":"Mumps"},
-{"id":29,"disease_name":"Malaria"},
-{"id":30,"disease_name":"Hepatitis B"}]
+[
+    {
+      "id": 1,
+      "name": "COVID-19",
+      "description": "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. It primarily spreads through respiratory droplets...",
+      "symptoms": ["Fever", "Cough", "Shortness of breath", "..."],
+      "treatments": ["Quarantine", "Supportive care", "Antiviral medications", "..."],
+      "prevention": ["Vaccination", "Wearing masks", "Hand hygiene", "..."],
+      "references": ["CDC Website: https://www.cdc.gov/coronavirus/2019-ncov/index.html", "WHO Website: https://www.who.int/emergencies/diseases/novel-coronavirus-2019"]
+    },
+    {
+      "id": 2,
+      "name": "Influenza",
+      "description": "Influenza, commonly known as the flu, is a contagious respiratory illness caused by influenza viruses. It can cause mild to severe illness...",
+      "symptoms": ["Fever", "Cough", "Sore throat", "..."],
+      "treatments": ["Antiviral medications", "Bed rest", "Fluids", "..."],
+      "prevention": ["Flu vaccine", "Hand hygiene", "Avoiding close contact", "..."],
+      "references": ["CDC Website: https://www.cdc.gov/flu/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)"]
+    },
+    {
+      "id": 3,
+      "name": "Diabetes",
+      "description": "Diabetes mellitus, commonly known as diabetes, is a group of metabolic disorders characterized by high blood sugar levels...",
+      "symptoms": ["Increased thirst", "Frequent urination", "Unexplained weight loss", "..."],
+      "treatments": ["Insulin therapy", "Oral medications", "Lifestyle changes", "..."],
+      "prevention": ["Healthy diet", "Regular exercise", "Maintaining a healthy weight", "..."],
+      "references": ["American Diabetes Association: https://www.diabetes.org", "CDC Website: https://www.cdc.gov/diabetes/index.html"]
+    },
+    {
+      "id": 4,
+      "name": "Hypertension",
+      "description": "Hypertension, also known as high blood pressure, is a condition in which the force of the blood against the artery walls is too high...",
+      "symptoms": ["Headache", "Dizziness", "Blurred vision", "..."],
+      "treatments": ["Medications", "Lifestyle changes", "Dietary modifications", "..."],
+      "prevention": ["Healthy diet", "Regular exercise", "Limiting alcohol intake", "..."],
+      "references": ["American Heart Association: https://www.heart.org", "CDC Website: https://www.cdc.gov/bloodpressure/index.html"]
+    },
+    {
+      "id": 5,
+      "name": "Malaria",
+      "description": "Malaria is a life-threatening mosquito-borne blood disease caused by Plasmodium parasites. It is transmitted to humans through the bite of infected Anopheles mosquitoes...",
+      "symptoms": ["Fever", "Chills", "Headache", "..."],
+      "treatments": ["Antimalarial medications", "Bed rest", "Fluids", "..."],
+      "prevention": ["Insecticide-treated bed nets", "Indoor residual spraying", "Antimalarial drugs", "..."],
+      "references": ["WHO Website: https://www.who.int/news-room/fact-sheets/detail/malaria", "CDC Website: https://www.cdc.gov/malaria/index.html"]
+    },
+    {
+      "id": 6,
+      "name": "Tuberculosis",
+      "description": "Tuberculosis (TB) is a potentially serious infectious disease that mainly affects the lungs. The bacteria that cause tuberculosis are spread from one person to another...",
+      "symptoms": ["Cough", "Chest pain", "Fatigue", "..."],
+      "treatments": ["Antibiotics", "Directly observed therapy", "Hospitalization (in severe cases)", "..."],
+      "prevention": ["TB vaccine", "Screening and treatment of latent TB infection", "Good ventilation", "..."],
+      "references": ["CDC Website: https://www.cdc.gov/tb/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/tuberculosis"]
+    },
+    {
+      "id": 7,
+      "name": "HIV/AIDS",
+      "description": "Human immunodeficiency virus infection and acquired immune deficiency syndrome (HIV/AIDS) is a spectrum of conditions caused by infection with the human immunodeficiency virus (HIV)...",
+      "symptoms": ["Fever", "Fatigue", "Swollen lymph nodes", "..."],
+      "treatments": ["Antiretroviral therapy (ART)", "Preventive medications (Pre-exposure prophylaxis - PrEP)", "Treatment of opportunistic infections", "..."],
+      "prevention": ["Safe sex practices", "Use of clean needles", "Pre-exposure prophylaxis (PrEP)", "..."],
+      "references": ["CDC Website: https://www.cdc.gov/hiv/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/hiv-aids"]
+    },
+    {
+      "id": 8,
+      "name": "Alzheimer's Disease",
+      "description": "Alzheimer's disease is a progressive neurodegenerative disorder that leads to memory loss and cognitive decline...",
+      "symptoms": ["Memory loss", "Confusion", "Difficulty with language", "..."],
+      "treatments": ["Medications (e.g., cholinesterase inhibitors)", "Cognitive training", "Supportive care", "..."],
+      "prevention": ["Healthy lifestyle choices", "Mental stimulation", "Physical exercise", "..."],
+      "references": ["Alzheimer's Association: https://www.alz.org", "NIH Website: https://www.nia.nih.gov/health/alzheimers-disease-fact-sheet"]
+    },
+    {
+      "id": 9,
+      "name": "Parkinson's Disease",
+      "description": "Parkinson's disease is a progressive nervous system disorder that affects movement. Symptoms start gradually, sometimes starting with a barely noticeable tremor in just one hand...",
+      "symptoms": ["Tremors", "Bradykinesia (slowed movement)", "Muscle rigidity", "..."],
+      "treatments": ["Medications (e.g., Levodopa)", "Deep brain stimulation (DBS)", "Physical therapy", "..."],
+      "prevention": ["Unknown (No specific prevention methods identified)", "..."],
+      "references": ["Parkinson's Foundation: https://www.parkinson.org", "NIH Website: https://www.ninds.nih.gov/Disorders/Patient-Caregiver-Education/Fact-Sheets/Parkinsons-Disease-Fact-Sheet"]
+    },
+    {
+        "id": 10,
+        "name": "Breast Cancer",
+        "description": "Breast cancer is a type of cancer that starts in the breast. It occurs when breast cells grow out of control...",
+        "symptoms": ["Lump in the breast", "Changes in breast shape or size", "Skin changes on the breast", "..."],
+        "treatments": ["Surgery", "Chemotherapy", "Radiation therapy", "..."],
+        "prevention": ["Regular breast screening (mammograms)", "Healthy lifestyle choices", "Breastfeeding", "..."],
+        "references": ["American Cancer Society: https://www.cancer.org", "National Breast Cancer Foundation: https://www.nationalbreastcancer.org"]
+      },
+      {
+        "id": 11,
+        "name": "Lung Cancer",
+        "description": "Lung cancer is a type of cancer that begins in the lungs. It is the leading cause of cancer deaths worldwide...",
+        "symptoms": ["Persistent cough", "Chest pain", "Shortness of breath", "..."],
+        "treatments": ["Surgery", "Chemotherapy", "Radiation therapy", "..."],
+        "prevention": ["Smoking cessation", "Avoiding exposure to secondhand smoke", "Radon testing and mitigation", "..."],
+        "references": ["American Cancer Society: https://www.cancer.org", "National Cancer Institute: https://www.cancer.gov"]
+      },
+      {
+        "id": 12,
+        "name": "Prostate Cancer",
+        "description": "Prostate cancer is a type of cancer that occurs in the prostate, a small walnut-shaped gland in males...",
+        "symptoms": ["Difficulty urinating", "Blood in urine", "Erectile dysfunction", "..."],
+        "treatments": ["Watchful waiting", "Surgery", "Radiation therapy", "..."],
+        "prevention": ["Healthy diet", "Regular exercise", "Screening tests (e.g., PSA test)", "..."],
+        "references": ["American Cancer Society: https://www.cancer.org", "Prostate Cancer Foundation: https://www.pcf.org"]
+      },
+      {
+        "id": 13,
+        "name": "Leukemia",
+        "description": "Leukemia is cancer of the body's blood-forming tissues, including the bone marrow and the lymphatic system...",
+        "symptoms": ["Fatigue", "Frequent infections", "Easy bruising or bleeding", "..."],
+        "treatments": ["Chemotherapy", "Targeted therapy", "Stem cell transplant", "..."],
+        "prevention": ["Unknown (No specific prevention methods identified)", "..."],
+        "references": ["American Cancer Society: https://www.cancer.org", "Leukemia & Lymphoma Society: https://www.lls.org"]
+      },
+      {
+        "id": 14,
+        "name": "Asthma",
+        "description": "Asthma is a chronic respiratory condition that causes inflammation and narrowing of the airways, leading to difficulty breathing...",
+        "symptoms": ["Shortness of breath", "Chest tightness", "Coughing", "..."],
+        "treatments": ["Inhaled corticosteroids", "Bronchodilators", "Allergy medications", "..."],
+        "prevention": ["Avoiding triggers (e.g., allergens, smoke)", "Using air filters", "Regular medical check-ups", "..."],
+        "references": ["American Lung Association: https://www.lung.org", "CDC Website: https://www.cdc.gov/asthma/index.html"]
+      },
+      {
+        "id": 15,
+        "name": "Arthritis",
+        "description": "Arthritis is inflammation of one or more joints, causing pain and stiffness that can worsen with age...",
+        "symptoms": ["Joint pain", "Swelling", "Stiffness", "..."],
+        "treatments": ["Medications (e.g., NSAIDs)", "Physical therapy", "Joint injections", "..."],
+        "prevention": ["Maintaining a healthy weight", "Regular exercise", "Avoiding joint injuries", "..."],
+        "references": ["Arthritis Foundation: https://www.arthritis.org", "CDC Website: https://www.cdc.gov/arthritis/index.html"]
+      },
+      {
+        "id": 16,
+        "name": "Osteoporosis",
+        "description": "Osteoporosis is a condition characterized by weakened bones, making them more likely to break...",
+        "symptoms": ["Back pain", "Loss of height", "Bone fractures", "..."],
+        "treatments": ["Calcium and vitamin D supplements", "Medications (e.g., bisphosphonates)", "Weight-bearing exercise", "..."],
+        "prevention": ["Adequate calcium and vitamin D intake", "Regular exercise", "Healthy lifestyle choices", "..."],
+        "references": ["National Osteoporosis Foundation: https://www.nof.org", "CDC Website: https://www.cdc.gov/osteoporosis/index.html"]
+      },
+      {
+        "id": 17,
+        "name": "Hepatitis B",
+        "description": "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic disease...",
+        "symptoms": ["Fatigue", "Abdominal pain", "Dark urine", "..."],
+        "treatments": ["Antiviral medications", "Interferon injections", "Liver transplant (in severe cases)", "..."],
+        "prevention": ["Hepatitis B vaccine", "Using protection during sex", "Avoiding sharing needles", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/hepatitis/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/hepatitis-b"]
+      },
+      {
+        "id": 18,
+        "name": "Hepatitis C",
+        "description": "Hepatitis C is a liver infection caused by the hepatitis C virus. Most people infected with the hepatitis C virus do not have symptoms...",
+        "symptoms": ["Fatigue", "Jaundice", "Abdominal pain", "..."],
+        "treatments": ["Antiviral medications", "Liver transplant (in severe cases)", "..."],
+        "prevention": ["Avoiding sharing needles", "Using protection during sex", "Screening blood products", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/hepatitis/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/hepatitis-c"]
+      },
+      {
+        "id": 19,
+        "name": "Dengue Fever",
+        "description": "Dengue fever is a mosquito-borne viral infection causing a severe flu-like illness...",
+        "symptoms": ["High fever", "Severe headache", "Pain behind the eyes", "..."],
+        "treatments": ["Supportive care", "Pain relievers", "Fluid replacement therapy", "..."],
+        "prevention": ["Eliminating mosquito breeding sites", "Using mosquito repellents", "Wearing protective clothing", "..."]
+      },
+      {
+        "id": 20,
+        "name": "Cholera",
+        "description": "Cholera is an acute diarrheal illness caused by infection of the intestine with the bacterium Vibrio cholerae...",
+        "symptoms": ["Severe diarrhea", "Vomiting", "Dehydration", "..."],
+        "treatments": ["Oral rehydration therapy", "Intravenous fluids", "Antibiotics (in severe cases)", "..."],
+        "prevention": ["Safe water and sanitation", "Vaccination", "Hygiene practices", "..."],
+        "references": ["WHO Website: https://www.who.int/news-room/fact-sheets/detail/cholera", "CDC Website: https://www.cdc.gov/cholera/index.html"]
+      },
+      {
+        "id": 21,
+        "name": "Ebola Virus Disease",
+        "description": "Ebola virus disease (EVD) is a severe, often fatal illness in humans caused by the Ebola virus...",
+        "symptoms": ["Fever", "Severe headache", "Muscle pain", "..."],
+        "treatments": ["Supportive care", "Fluids and electrolytes", "Experimental treatments (e.g., antivirals)", "..."],
+        "prevention": ["Safe burial practices", "Personal protective equipment", "Contact tracing", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/vhf/ebola/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease"]
+      },
+      {
+        "id": 22,
+        "name": "Zika Virus Infection",
+        "description": "Zika virus infection is primarily spread through the bite of infected Aedes mosquitoes...",
+        "symptoms": ["Fever", "Rash", "Joint pain", "..."],
+        "treatments": ["Supportive care", "Pain relievers", "Rest", "..."],
+        "prevention": ["Mosquito bite prevention (e.g., insect repellents)", "Safe sex practices", "Avoiding travel to affected areas", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/zika/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/zika-virus"]
+      },
+      {
+        "id": 23,
+        "name": "SARS (Severe Acute Respiratory Syndrome)",
+        "description": "Severe acute respiratory syndrome (SARS) is a viral respiratory illness caused by the SARS-associated coronavirus (SARS-CoV)...",
+        "symptoms": ["Fever", "Cough", "Shortness of breath", "..."],
+        "treatments": ["Supportive care", "Antiviral medications", "Steroids (in severe cases)", "..."],
+        "prevention": ["Hand hygiene", "Use of masks", "Isolation of suspected cases", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/sars/index.html", "WHO Website: https://www.who.int/health-topics/severe-acute-respiratory-syndrome"]
+      },
+      {
+        "id": 24,
+        "name": "MERS (Middle East Respiratory Syndrome)",
+        "description": "Middle East Respiratory Syndrome (MERS) is a viral respiratory illness caused by the MERS coronavirus (MERS-CoV)...",
+        "symptoms": ["Fever", "Cough", "Shortness of breath", "..."],
+        "treatments": ["Supportive care", "Antiviral medications", "Steroids (in severe cases)", "..."],
+        "prevention": ["Hand hygiene", "Use of masks", "Avoiding close contact with camels", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/coronavirus/mers/index.html", "WHO Website: https://www.who.int/emergencies/mers-cov/en/"]
+      },
+      {
+        "id": 25,
+        "name": "Stroke",
+        "description": "A stroke occurs when the blood supply to part of your brain is interrupted or reduced, depriving brain tissue of oxygen and nutrients...",
+        "symptoms": ["Sudden numbness or weakness of face, arm, or leg", "Confusion", "Trouble speaking or understanding", "..."],
+        "treatments": ["Clot-busting drugs", "Thrombectomy", "Rehabilitation", "..."],
+        "prevention": ["Maintaining a healthy weight", "Regular exercise", "Healthy diet", "..."],
+        "references": ["American Stroke Association: https://www.stroke.org", "CDC Website: https://www.cdc.gov/stroke/index.html"]
+      },
+      {
+        "id": 26,
+        "name": "Heart Disease",
+        "description": "Heart disease refers to several types of heart conditions, including coronary artery disease, heart rhythm problems, and heart defects...",
+        "symptoms": ["Chest pain or discomfort", "Shortness of breath", "Fatigue", "..."],
+        "treatments": ["Lifestyle changes (e.g., diet, exercise)", "Medications", "Surgery (e.g., bypass surgery)", "..."],
+        "prevention": ["Healthy lifestyle choices", "Regular medical check-ups", "Managing stress", "..."],
+        "references": ["American Heart Association: https://www.heart.org", "CDC Website: https://www.cdc.gov/heartdisease/index.html"]
+      },
+      {
+        "id": 27,
+        "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "description": "Chronic obstructive pulmonary disease (COPD) is a chronic inflammatory lung disease that causes obstructed airflow from the lungs...",
+        "symptoms": ["Shortness of breath", "Chronic cough", "Wheezing", "..."],
+        "treatments": ["Bronchodilators", "Inhaled steroids", "Oxygen therapy", "..."],
+        "prevention": ["Smoking cessation", "Avoiding exposure to pollutants", "Vaccination", "..."],
+        "references": ["American Lung Association: https://www.lung.org", "CDC Website: https://www.cdc.gov/copd/index.html"]
+      },
+      {
+        "id": 28,
+        "name": "Measles",
+        "description": "Measles is a highly contagious viral infection that spreads through respiratory droplets...",
+        "symptoms": ["High fever", "Cough", "Runny nose", "..."],
+        "treatments": ["Supportive care", "Vitamin A supplementation", "..."],
+        "prevention": ["Measles, Mumps, and Rubella (MMR) vaccine", "Isolation of infected individuals", "Hand hygiene", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/measles/index.html", "WHO Website: https://www.who.int/health-topics/measles"]
+      },
+      {
+        "id": 29,
+        "name": "Rubella",
+        "description": "Rubella, also known as German measles, is a contagious viral infection characterized by a distinctive red rash...",
+        "symptoms": ["Mild fever", "Headache", "Runny or stuffy nose", "..."],
+        "treatments": ["Supportive care", "Medications for symptom relief", "..."],
+        "prevention": ["MMR (Measles, Mumps, Rubella) vaccine", "Avoiding contact with infected individuals", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/rubella/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/rubella"]
+      },
+      {
+        "id": 30,
+        "name": "Chickenpox",
+        "description": "Chickenpox is a highly contagious viral infection characterized by an itchy rash and red spots or blisters...",
+        "symptoms": ["Itchy rash", "Fever", "Fatigue", "..."],
+        "treatments": ["Supportive care", "Antiviral medications (in severe cases)", "..."],
+        "prevention": ["Varicella vaccine", "Avoiding contact with infected individuals", "Good hygiene practices", "..."],
+        "references": ["CDC Website: https://www.cdc.gov/chickenpox/index.html", "WHO Website: https://www.who.int/news-room/fact-sheets/detail/chickenpox-(varicella)"]
+      }
+   
+]
