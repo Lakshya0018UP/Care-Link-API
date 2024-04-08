@@ -1,0 +1,184 @@
+[
+      {
+        "id": 1,
+        "name": "Lucknow Medical Center",
+        "address": "Gomti Nagar, Lucknow",
+        "specialties": ["Cardiology", "Orthopedics", "Neurology"]
+      },
+      {
+        "id": 2,
+        "name": "City Hospital",
+        "address": "Hazratganj, Lucknow",
+        "specialties": ["General Surgery", "Gynecology", "Pediatrics"]
+      },
+      {
+        "id": 3,
+        "name": "Sanjay Gandhi Hospital",
+        "address": "Indira Nagar, Lucknow",
+        "specialties": ["Oncology", "ENT", "Urology"]
+      },
+      {
+        "id": 4,
+        "name": "Apollo Hospital",
+        "address": "Rae Bareli Road, Lucknow",
+        "specialties": ["Cardiology", "Nephrology", "Ophthalmology"]
+      },
+      {
+        "id": 5,
+        "name": "KGMC Hospital",
+        "address": "Chowk, Lucknow",
+        "specialties": ["Neurology", "Psychiatry", "Dermatology"]
+      },
+      {
+        "id": 6,
+        "name": "Mayo Hospital",
+        "address": "Alambagh, Lucknow",
+        "specialties": ["Orthopedics", "Endocrinology", "Gastroenterology"]
+      },
+      {
+        "id": 7,
+        "name": "Charak Hospital",
+        "address": "Aliganj, Lucknow",
+        "specialties": ["Orthopedics", "Dentistry", "Ophthalmology"]
+      },
+      {
+        "id": 8,
+        "name": "Medanta Hospital",
+        "address": "Vibhuti Khand, Lucknow",
+        "specialties": ["Cardiology", "Oncology", "Gynecology"]
+      },
+      {
+        "id": 9,
+        "name": "Shekhar Hospital",
+        "address": "Gomti Nagar, Lucknow",
+        "specialties": ["General Surgery", "Cardiology", "ENT"]
+      },
+      {
+        "id": 10,
+        "name": "RML Hospital",
+        "address": "Rajajipuram, Lucknow",
+        "specialties": ["Pediatrics", "Dermatology", "Nephrology"]
+      },
+      {
+        "id": 11,
+        "name": "Sarojini Hospital",
+        "address": "Mahanagar, Lucknow",
+        "specialties": ["Gynecology", "Obstetrics", "Pediatrics"]
+      },
+      {
+        "id": 12,
+        "name": "Sahara Hospital",
+        "address": "Gomti Nagar, Lucknow",
+        "specialties": ["Orthopedics", "Neurology", "Urology"]
+      },
+      {
+        "id": 13,
+        "name": "Ram Manohar Lohia Hospital",
+        "address": "Gomti Nagar, Lucknow",
+        "specialties": ["Cardiology", "Oncology", "Nephrology"]
+      },
+      {
+        "id": 14,
+        "name": "Chandra Hospital",
+        "address": "Aliganj, Lucknow",
+        "specialties": ["ENT", "Dentistry", "Ophthalmology"]
+      },
+      {
+        "id": 15,
+        "name": "Vivekananda Hospital",
+        "address": "Indira Nagar, Lucknow",
+        "specialties": ["Neurology", "Psychiatry", "Dermatology"]
+      },
+      {
+        "id": 16,
+        "name": "MediCiti Hospital",
+        "address": "Gomti Nagar, Lucknow",
+        "specialties": ["Cardiology", "Orthopedics", "Neurology"]
+      },
+      {
+        "id": 17,
+        "name": "Lotus Hospital",
+        "address": "Hazratganj, Lucknow",
+        "specialties": ["General Surgery", "Gynecology", "Pediatrics"]
+      },
+      {
+        "id": 18,
+        "name": "Columbia Asia Hospital",
+        "address": "Aliganj, Lucknow",
+        "specialties": ["Oncology", "ENT", "Urology"]
+      },
+      {
+        "id": 19,
+        "name": "Apex Hospital",
+        "address": "Rae Bareli Road, Lucknow",
+        "specialties": ["Cardiology", "Nephrology", "Ophthalmology"]
+      },
+      {
+        "id": 20,
+        "name": "Heartbeat Hospital",
+        "address": "Chowk, Lucknow",
+        "specialties": ["Neurology", "Psychiatry", "Dermatology"]
+      },
+      {
+        "id": 21,
+        "name": "Sun Hospital",
+        "address": "Alambagh, Lucknow",
+        "specialties": ["Orthopedics", "Endocrinology", "Gastroenterology"]
+      },
+      {
+        "id": 22,
+        "name": "Angel Hospital",
+        "address": "Aliganj, Lucknow",
+        "specialties": ["Orthopedics", "Dentistry", "Ophthalmology"]
+      },
+      {
+        "id": 23,
+        "name": "Surya Hospital",
+        "address": "Gomti Nagar Extension, Lucknow",
+        "specialties": ["Cardiology", "Orthopedics", "Neurology"]
+      },
+      {
+        "id": 24,
+        "name": "Diamond Hospital",
+        "address": "Vikas Nagar, Lucknow",
+        "specialties": ["General Surgery", "Gynecology", "Pediatrics"]
+      },
+      {
+        "id": 25,
+        "name": "Nightingale Hospital",
+        "address": "Mahanagar Extension, Lucknow",
+        "specialties": ["Oncology", "ENT", "Urology"]
+      },
+      {
+        "id": 26,
+        "name": "Sunrise Hospital",
+        "address": "Aliganj, Lucknow",
+        "specialties": ["Cardiology", "Nephrology", "Ophthalmology"]
+      },
+      {
+        "id": 27,
+        "name": "Rainbow Hospital",
+        "address": "Indira Nagar, Lucknow",
+        "specialties": ["Neurology", "Psychiatry", "Dermatology"]
+      },
+      {
+        "id": 28,
+        "name": "Evergreen Hospital",
+        "address": "Rajajipuram, Lucknow",
+        "specialties": ["Orthopedics", "Endocrinology", "Gastroenterology"]
+      },
+      {
+        "id": 29,
+        "name": "Lotus Hospital",
+        "address": "Charbagh, Lucknow",
+        "specialties": ["Orthopedics", "Dentistry", "Ophthalmology"]
+      },
+      {
+        "id": 30,
+        "name": "Sunrise Hospital",
+        "address": "Vibhuti Khand, Lucknow",
+        "specialties": ["Cardiology", "Oncology", "Gynecology"]
+      }
+]
+  
+  
